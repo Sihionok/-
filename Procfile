@@ -1,1 +1,1 @@
-worker:python sad_vk.py
+worker:python sad_vk_2.py
