@@ -24,9 +24,9 @@ def obertka(func):
 @obertka
 def author_name(message):
 	if 'author' in message:
-		return 'Damir'
+		return 'Sasha'
 import os
-mind = [("author","Damir"),
+mind = [("author","Sasha"),
 		("hotel","trivago"),
 		("cat","MEWO"),
 		("naruto","SASUKE"),
