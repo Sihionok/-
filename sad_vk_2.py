@@ -42,5 +42,10 @@ for event in longpoll.listen():
                  send_message(user_id, 'привет,эт к создателю,но у меня норм')
             elif "го" in text:
                 send_message(user_id, 'уже отправил повелителю :)')
-                
+            
+            if text == 'как дела?':
+              send_message(user_id, 'номана!!))')
+            if text == 'как дела? как дела? ':
+              send_message(user_id, 'это новый КАДИДАК!!!')
+              
             
